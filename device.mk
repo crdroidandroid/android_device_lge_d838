@@ -15,7 +15,7 @@
 #
 
 $(call inherit-product-if-exists, vendor/lge/d838/d838-vendor.mk)
-$(call inherit-product, device/lge/b1w-common/d838.mk)
+$(call inherit-product, device/lge/b1w-common/b1w.mk)
 
 ## overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
