@@ -18,7 +18,6 @@ include device/lge/b1w-common/BoardConfigCommon.mk
 
 TARGET_KERNEL_CONFIG := cyanogenmod_d838_defconfig
 
-TARGET_OTA_ASSERT_DEVICE := d838,b1w,galbi,f350
+TARGET_OTA_ASSERT_DEVICE := d838,b1w,galbi
 
 G2_DTS_TARGET := msm8974-b1w
-
