@@ -22,3 +22,5 @@ TARGET_OTA_ASSERT_DEVICE := d838,b1w,galbi,f350
 
 G2_DTS_TARGET := msm8974-b1w
 
+BLOCK_BASED_OTA :=false
+
