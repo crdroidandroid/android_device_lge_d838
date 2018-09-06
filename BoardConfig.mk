@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,11 +17,9 @@
 
 include device/lge/b1w-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := cyanogenmod_d838_defconfig
+TARGET_KERNEL_CONFIG := lineage_d838_defconfig
 
 TARGET_OTA_ASSERT_DEVICE := d838,b1w,galbi,f350
 
 G2_DTS_TARGET := msm8974-b1w
-
-BLOCK_BASED_OTA :=false
 
