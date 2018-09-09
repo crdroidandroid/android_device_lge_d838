@@ -15,11 +15,11 @@
 # limitations under the License.
 #
 
-include device/lge/b1w-common/BoardConfigCommon.mk
+include device/lge/g2-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := lineage_d838_defconfig
+TARGET_KERNEL_CONFIG := lineageos_d838_defconfig
 
-TARGET_OTA_ASSERT_DEVICE := d838,b1w,galbi,f350
+TARGET_OTA_ASSERT_DEVICE := d837,d838,b1w,galbi,f350
 
 G2_DTS_TARGET := msm8974-b1w
 
